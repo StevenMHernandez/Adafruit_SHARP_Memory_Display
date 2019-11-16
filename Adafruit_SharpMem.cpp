@@ -17,6 +17,7 @@ All text above, and the splash screen must be included in any redistribution
 *********************************************************************/
 
 #include "Adafruit_SharpMem.h"
+#include "digitalWriteFast.h"
 
 #ifndef _swap_int16_t
 #define _swap_int16_t(a, b) { int16_t t = a; a = b; b = t; }
